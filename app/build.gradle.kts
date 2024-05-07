@@ -27,6 +27,11 @@ dependencies {
     implementation("gg.jte:jte:3.1.9")
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    implementation("gg.jte:jte:3.1.10")
+    implementation("io.javalin:javalin-rendering:6.1.3")
+    compileOnly("org.projectlombok:lombok:1.18.30")
+    annotationProcessor("org.projectlombok:lombok:1.18.30")
+    implementation("com.github.javafaker:javafaker:1.0.2")
 }
 
 tasks.test {
